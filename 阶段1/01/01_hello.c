@@ -1,16 +1,6 @@
 /*
  * 01_hello.c —— 阶段1 / 第 01 课 / 第 1 个文件（最先看这篇）
  *
- * 【学习顺序】本目录按文件名前缀的数字从小到大阅读：
- *     01_hello.c              第 1 篇：最小可运行的 C 程序
- *     02_printf_tutorial.c    第 2 篇：printf 占位符详解（建议接着看）
- *     03_标识符.c             第 3 篇：标识符（名字）的命名规则
- *     04_变量.c               第 4 篇：变量的类型、初始化、作用域
- *     05_整型.c               第 5 篇：整数类型家族、signed/unsigned
- *     06_浮点类型.c           第 6 篇：float / double 与精度
- *     07_字符与字符串.c       第 7 篇：char、ASCII、字符串本质
- *     08_布尔类型.c           第 8 篇：bool、逻辑运算与短路
- *
  * 作用：在终端打印一行 "Hello，C！"。
  * 编译：gcc 01_hello.c -o hello    （-o hello 指定输出的可执行文件名）
  *       如果不写 -o，gcc 会使用默认名字 a.out（Unix/Linux/macOS），Windows(MinGW) 下是 a.exe。
