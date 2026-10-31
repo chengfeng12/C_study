@@ -1,0 +1,14 @@
+
+# <type>(<scope>): <中文动词开头的描述，≤50 字，不加句号>
+#
+# type: feat | fix | docs | refactor | style | test | chore | revert
+# scope: 章节号或模块名，如 1.1 / 2.2 / repo
+#
+# 例：
+#   feat(2.2): 新增 For 循环示例，含 Step 负数用法
+#   fix(1.1): 修正 Integer 溢出示例，改用 Long
+#
+# 需要解释「为什么改」时，在首行下方空一行写 body（每行 ≤72 字）。
+# 规范全文见 CONTRIBUTING.md
+#
+# ------------------------ 以下为 Git 状态信息 ------------------------
