@@ -1,8 +1,13 @@
 /*
- * hello.c —— 第一个 C 程序
+ * 01_hello.c —— 阶段1 / 第 01 课 / 第 1 个文件（最先看这篇）
+ *
+ * 【学习顺序】本目录按文件名前缀的数字从小到大阅读：
+ *     01_hello.c              第 1 篇：最小可运行的 C 程序
+ *     02_printf_tutorial.c    第 2 篇：printf 占位符详解（建议接着看）
+ *     03_标识符.c             第 3 篇：标识符（名字）的命名规则
  *
  * 作用：在终端打印一行 "Hello，C！"。
- * 编译：gcc hello.c -o hello      （-o hello 指定输出的可执行文件名）
+ * 编译：gcc 01_hello.c -o hello    （-o hello 指定输出的可执行文件名）
  *       如果不写 -o，gcc 会使用默认名字 a.out（Unix/Linux/macOS），Windows(MinGW) 下是 a.exe。
  *       a.out 是 "assembler output"（汇编器输出）的历史遗留名字。
  * 运行：./hello   （用默认名时则运行 ./a.out）

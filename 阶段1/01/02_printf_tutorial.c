@@ -1,7 +1,12 @@
 /*
- * printf_tutorial.c —— printf 用法教程（配套 01/hello.c）
+ * 02_printf_tutorial.c —— 阶段1 / 第 01 课 / 第 2 个文件：printf 用法教程
  *
- * 编译：gcc printf_tutorial.c -o printf_demo
+ * 【学习顺序】本目录按文件名前缀的数字从小到大阅读：
+ *     01_hello.c              第 1 篇：最小可运行的 C 程序（前置知识，先看）
+ *     02_printf_tutorial.c    第 2 篇：本篇，printf 占位符与格式化输出
+ *     03_标识符.c             第 3 篇：标识符（名字）的命名规则
+ *
+ * 编译：gcc 02_printf_tutorial.c -o printf_demo
  * 运行：./printf_demo
  *
  * 阅读顺序：从上到下，每一节都先看注释，再看代码，最后看运行结果对照。
