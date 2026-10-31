@@ -127,7 +127,7 @@ int main(void)
     char digit = '7';
     int  value = digit - '0';       /* '7'(55) - '0'(48) = 7 */
     printf("2. 字符 '%c' 转成数字 = %d（用 '%c'-'0' 这个技巧）\n",
-           digit, value, digit);
+           digit, value, digit);  
 
     /* ---------- 3. char 的取值范围：有符号 vs 无符号 ---------- */
     printf("3. CHAR_MIN=%d  CHAR_MAX=%d  UCHAR_MAX=%d\n",
