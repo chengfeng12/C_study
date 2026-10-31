@@ -5,6 +5,11 @@
  *     01_hello.c              第 1 篇：最小可运行的 C 程序（前置知识，先看）
  *     02_printf_tutorial.c    第 2 篇：本篇，printf 占位符与格式化输出
  *     03_标识符.c             第 3 篇：标识符（名字）的命名规则
+ *     04_变量.c               第 4 篇：变量的类型、初始化、作用域
+ *     05_整型.c               第 5 篇：整数类型家族、signed/unsigned
+ *     06_浮点类型.c           第 6 篇：float / double 与精度
+ *     07_字符与字符串.c       第 7 篇：char、ASCII、字符串本质
+ *     08_布尔类型.c           第 8 篇：bool、逻辑运算与短路
  *
  * 编译：gcc 02_printf_tutorial.c -o printf_demo
  * 运行：./printf_demo
