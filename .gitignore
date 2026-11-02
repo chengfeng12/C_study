@@ -1,0 +1,31 @@
+# ===== 编译产物 =====
+# 约定：编译时一律用 -o bin/名字，不要在源码目录生成可执行文件
+bin/
+build/
+
+# 目标文件与库
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.lib
+
+# 默认输出名（不写 -o 时产生）
+a.out
+a.exe
+
+# Windows 可执行文件
+*.exe
+*.pdb
+
+# macOS 调试符号
+*.dSYM/
+*.dSYM
+
+# ===== 编辑器 / 系统 =====
+.DS_Store
+.idea/
+*.swp
+*~

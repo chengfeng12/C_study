@@ -1,7 +1,7 @@
 /*
- * 01_条件分支_if_else.c —— 阶段1 / 第 02 课 / 第 01 个文件：条件分支 if / else
+ * 19_条件分支_if_else.c —— 阶段1 / 第 04 课 / 第 19 个文件：条件分支 if / else
  *
- * 编译：gcc 01_条件分支_if_else.c -o if_demo
+ * 编译：gcc 19_条件分支_if_else.c -o if_demo
  * 运行：./if_demo
  *
  * 编译时会看到 1 条警告 -Wdangling-else（悬空 else），
@@ -126,7 +126,7 @@
  *        int can_vote = age >= 18 && has_id;
  *        if (can_vote) ...
  *  - 边界值一定要测：== 边界、比边界小 1、比边界大 1
- *  - 多个区间用 else if，等值判断用 switch（下一课）
+ *  - 多个区间用 else if，等值判断用 switch（下一个文件）
  *  - 函数入口先做"参数不合法就 return"，能干掉一大半嵌套
  *  - 编译一定开 -Wall -Wextra，坑 1~4 编译器基本都能帮你看出来
  */
@@ -288,7 +288,7 @@ int main(void)
 
 /* ====================== 本程序的运行结果（对照着看） ======================
  * 编译运行：
- *     gcc 01_条件分支_if_else.c -o if_demo
+ *     gcc 19_条件分支_if_else.c -o if_demo
  *     ./if_demo
  *
  * 输出如下：

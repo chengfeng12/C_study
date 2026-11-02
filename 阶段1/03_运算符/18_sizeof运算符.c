@@ -1,5 +1,5 @@
 /*
- * 18_sizeof运算符.c —— 阶段1 / 第 01 课 / 第 18 个文件：sizeof 运算符
+ * 18_sizeof运算符.c —— 阶段1 / 第 03 课 / 第 18 个文件：sizeof 运算符
  *
  * 编译：gcc 18_sizeof运算符.c -o sizeof_demo
  * 运行：./sizeof_demo

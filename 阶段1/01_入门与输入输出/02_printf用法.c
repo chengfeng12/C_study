@@ -1,7 +1,7 @@
 /*
- * 02_printf_tutorial.c —— 阶段1 / 第 01 课 / 第 2 个文件：printf 用法教程
+ * 02_printf用法.c —— 阶段1 / 第 01 课 / 第 02 个文件：printf 用法教程
  *
- * 编译：gcc 02_printf_tutorial.c -o printf_demo
+ * 编译：gcc 02_printf用法.c -o printf_demo
  * 运行：./printf_demo
  *
  * 阅读顺序：从上到下，每一节都先看注释，再看代码，最后看运行结果对照。

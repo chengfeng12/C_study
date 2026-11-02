@@ -1,7 +1,7 @@
 /*
- * 02_多分支_switch_case.c —— 阶段1 / 第 02 课 / 第 02 个文件：switch - case 多分支
+ * 20_多分支_switch_case.c —— 阶段1 / 第 04 课 / 第 20 个文件：switch - case 多分支
  *
- * 编译：gcc 02_多分支_switch_case.c -o switch_demo
+ * 编译：gcc 20_多分支_switch_case.c -o switch_demo
  * 运行：./switch_demo
  *
  * 本文件能干净编译（-Wall -Wextra 无警告）：
@@ -377,7 +377,7 @@ int main(void)
 
 /* ====================== 本程序的运行结果（对照着看） ======================
  * 编译运行：
- *     gcc 02_多分支_switch_case.c -o switch_demo
+ *     gcc 20_多分支_switch_case.c -o switch_demo
  *     ./switch_demo
  *
  * 输出如下：
