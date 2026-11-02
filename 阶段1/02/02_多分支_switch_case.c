@@ -4,8 +4,10 @@
  * 编译：gcc 02_多分支_switch_case.c -o switch_demo
  * 运行：./switch_demo
  *
- * 编译时可能看到一条 -Wimplicit-fallthrough 警告，是第 7 节"故意贯穿"
- * 的演示，不是错误；代码里用注释 fall through 标注了是故意的。
+ * 本文件能干净编译（-Wall -Wextra 无警告）：
+ * 第 2、7 节故意"贯穿（fall through）"的地方都加了 fall through 注释，
+ * 编译器认这种注释，不会报 -Wimplicit-fallthrough。
+ * 如果你把注释删掉，就会看到那条警告——那正是提醒你"这里真的不要 break 吗"。
  *
  * ====================== 一、switch 解决什么问题 ======================
  * 三个以上"等值判断"时，if-else if 链会变得又长又丑：
