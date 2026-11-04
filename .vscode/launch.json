@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/yinxuran/file/study/C/阶段1/01",
-      "program": "/Users/yinxuran/file/study/C/阶段1/01/build/Debug/outDebug"
+      "cwd": "/Users/yinxuran/file/study/C/阶段1/06_指针",
+      "program": "/Users/yinxuran/file/study/C/阶段1/06_指针/build/Debug/outDebug"
     }
   ]
 }
