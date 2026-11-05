@@ -86,7 +86,8 @@
  *    - 加上 `static`：每个 .c 各有一份**内部副本**，绝不会重复定义
  *
  * 所以实践结论：**头文件里的小函数一律写 `static inline`**，别只用 inline。
- * （04 篇第五节讲过这个"头文件只放声明"的例外。）
+ * （04 篇第五节讲过这个"头文件只放声明"的例外；
+ *   inline / _Noreturn / static / extern 的系统讲解见 10 篇。）
  *
  * ====================== 四、函数式宏 vs 函数 ======================
  * 有了函数，为什么还有人写宏？因为宏有两个函数做不到的能力：
@@ -192,15 +193,15 @@ static long sum_all(int n, ...)
 }
 
 /* ---- 可变参数的另一形态：标签 + 个数 + 若干 int ---- */
-static void print_tagged(const char *label, int n, ...)
+static void print_tagged(const char *label, int n, ...) // n 是用来记录可变参数的个数
 {
-    va_list ap;
-    va_start(ap, n);
+    va_list ap; // ap 用来存储可变参数
+    va_start(ap, n); // 用来初始化 va_list 对象
     printf("   %s:", label);
     for (int i = 0; i < n; i++)
         printf(" %d", va_arg(ap, int));
     printf("\n");
-    va_end(ap);
+    va_end(ap); // 结束可变参数的处理
 }
 
 /* ---- 头文件里该这么写：static inline，每个 .c 各一份副本 ---- */
