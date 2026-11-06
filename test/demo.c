@@ -55,5 +55,15 @@ int main() {
   printf("指针：a + 1 = %d\n", addFun2(&a));
 
   printf("a = %d\n", a);
+
+  char s[] = "test";
+  printf("地址：%p\n", s);
+  printf("s[0]地址：%p\n", &s[0]);
+  // s = "hello"; // 报错
+  s[0] = 'h';
+  printf("s = %s\n", s);
+  printf("地址：%p\n", s);
+  printf("s[0]地址：%p\n", &s[0]);
+
   return 0;
 }
